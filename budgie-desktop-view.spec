@@ -5,7 +5,7 @@ Summary:        Budgie Desktop View is the official Budgie desktop icons applica
 Group:          Graphical desktop/Budgie
 License:        ASL 2.0
 URL:            https://github.com/BuddiesOfBudgie/budgie-desktop-view
-Source0:        %{url}/releases/download/v%{version}/%{name}-v%{version}.tar.xz
+Source0:        https://github.com/BuddiesOfBudgie/budgie-desktop-view/releases/download/v%{version}/%{name}-v%{version}.tar.xz
 
 BuildRequires:  gettext
 BuildRequires:  intltool
@@ -40,7 +40,7 @@ Budgie Desktop View is designed for the Budgie Desktop. Usage outside of Budgie 
 %autosetup -p1
 
 %build
-%meson
+%meson -Dbuildtype=release
 %meson_build
 
 %install
