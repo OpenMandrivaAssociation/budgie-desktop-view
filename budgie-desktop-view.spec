@@ -40,7 +40,7 @@ Budgie Desktop View is designed for the Budgie Desktop. Usage outside of Budgie 
 %autosetup -p1
 
 %build
-%meson -Dbuildtype=release
+%meson
 %meson_build
 
 %install
