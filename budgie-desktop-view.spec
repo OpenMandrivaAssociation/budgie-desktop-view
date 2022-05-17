@@ -17,8 +17,8 @@ BuildRequires:  pkgconfig(gdk-3.0) >= %{gtk3_version}
 BuildRequires:  pkgconfig(gtk+-3.0) >= %{gtk3_version}
 BuildRequires:  pkgconfig(vapigen) >= %{vala_version}
 
-Requires: glib2%{?_isa}
-Requires: gtk+3%{?_isa}
+Requires: glib2
+Requires: gtk+3
 
 %description
 Budgie Desktop View is the official Budgie desktop icons application / implementation.
