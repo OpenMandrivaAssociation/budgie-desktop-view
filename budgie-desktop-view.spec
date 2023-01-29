@@ -46,7 +46,9 @@ Budgie Desktop View is designed for the Budgie Desktop. Usage outside of Budgie 
 %install
 %meson_install
 
-%files
+%find_lang %{name}
+
+%files -f %{name}.lang
 %doc README.md
 %license LICENSE.md
 %{_bindir}/org.buddiesofbudgie.budgie-desktop-view
