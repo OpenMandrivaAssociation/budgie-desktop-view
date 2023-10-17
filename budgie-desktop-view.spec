@@ -1,3 +1,6 @@
+%global optflags %{optflags} -Wno-error -Wno-implicit-function-declaration
+%global optflags %{optflags} -Wno-incompatible-function-pointer-types
+
 Name:           budgie-desktop-view
 Version:        1.3
 Release:        1
