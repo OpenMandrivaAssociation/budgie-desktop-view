@@ -2,7 +2,7 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:           budgie-desktop-view
-Version:        1.3
+Version:        10.10.2
 Release:        1
 Summary:        Budgie Desktop View is the official Budgie desktop icons application / implementation.
 Group:          Graphical desktop/Budgie
