@@ -20,6 +20,7 @@ BuildRequires:  pkgconfig(gdk-3.0) >= %{gtk3_version}
 BuildRequires:  pkgconfig(gtk+-3.0) >= %{gtk3_version}
 BuildRequires:  pkgconfig(gtk-layer-shell-0)
 BuildRequires:  pkgconfig(vapigen) >= %{vala_version}
+BuildRequires:  pkgconfig(libxfce4windowing-0)
 
 Requires: glib2
 Requires: gtk+3
